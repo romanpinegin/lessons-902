@@ -3,13 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Формы</title>
+    <style>
+        h1 {
+            color: blue;
+            text-decoration: underline
+        }
+        label {
+            color: green;
+        }
+    </style>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Моя первая HTML-форма</h1>
+    <h1 style="color: blue; text-decoration: underline">Моя первая HTML-форма</h1>
 
-    <form method="get">
-        <label for="email">Email: </label>
-        <input id="email">
+    <form method="post">
+        <label for="email" class="email-label">Email: </label>
+        <input id="email" name="email" type="email" required tabindex="1" placeholder="Введите email"> <br>
+        <label for="password" class="password-label">Пароль:</label>
+        <input id="password" name="password" type="password" required tabindex="2" placeholder="Введите пароль"><br>
+
+        <input type="number" min="2" max="100"><br>
+
+        <label>
+            <input type="checkbox">
+            Подписаться на рассылку
+        </label>
+
+        <input type="color">
+
+        <input type="date">
+
+        <input type="file"><br>
+
+        <span class="email-label">Хотите получать подарки</span>
+
+        <label>
+            <input type="radio" name="gift" value="1"> да
+        </label>
+
+        <label>
+            <input type="radio" name="gift" value="2"> нет
+        </label>
+
+        <label>
+            <input type="radio" name="gift" value="3"> не знаю
+        </label>
+
+        <input type="month"> <br>
+
+        <input type="range" min="5" max="50"> <br>
+
+        <input type="search"> <br>
+
+        <input type="tel"> <br>
+
+        <input type="submit"><br>
+
+        <textarea name="text"></textarea><br>
+
+        <select name="city">
+                <option>Днепр</option>
+                <option>Харьков</option>
+                <option>Днепр</option>
+
+        </select><br>
+
+        <input type="reset">
+
+        <button>text <em>italic</em></button>
+
+
+
 
     </form>
 
