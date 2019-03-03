@@ -1,0 +1,21 @@
+ol {
+    color: red;
+}
+li strong {
+    color: red;
+    font-weight: bold;
+}
+span {
+    color: blue;
+    font-style: italic;
+}
+h2 {
+    color: green;
+}
+strong {
+    color: red;
+}
+ul {
+    color: purple;
+    font-style: oblique;
+}
