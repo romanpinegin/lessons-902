@@ -1,4 +1,4 @@
 "use strict";
 
-let diagonal = document.getElementById("");
+let diagonal = document.getElementsByClassName('color');
 diagonal.style.backgroundColor = 'red';
